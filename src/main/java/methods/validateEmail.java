@@ -8,6 +8,7 @@ public class validateEmail {
     * This part [a-zA-Z] is to set that the string contains any single character from 'a' to 'z' both lowercase and uppercase
     * This part [a-zA-Z0-9._-]is to set that the string contains any number/letters/characters like periods, underscores or dashes
     * This part @codechallenge.com is to match the domain name of the email address.
+    * Then I return a boolean value of email.matches(regex) where matches will validate if the string email matches with the regular expression that is regex
     *
     * */
 
