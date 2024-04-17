@@ -11,7 +11,7 @@ public class main {
     * This is the main class where I first ask how many emails are going to be entered and save it in to variable
     * Once that's set, I itirate and ask for each email and save it into email variable
     * Once the email is saved I call the function isEmailValid which I call up from validateEmail class
-    * Once the result is obtained I print a message based on its value
+    * Once the result is obtained I save it into a variable and  print a message with the email and its value
     *
     * */
     
